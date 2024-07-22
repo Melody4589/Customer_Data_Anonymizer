@@ -1,6 +1,9 @@
+/* General body styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: 'Roboto', sans-serif;
+    /* Use a modern font */
+    background-color: #e0f7fa;
+    /* Light teal background */
     margin: 0;
     padding: 0;
     display: flex;
@@ -9,44 +12,79 @@ body {
     height: 100vh;
 }
 
+/* Container styling */
 .container {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    /* White background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Softer shadow */
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
 }
 
+/* Header styling */
 h1 {
     margin-top: 0;
+    color: #00796b;
+    /* Dark teal color */
 }
 
+/* Label styling */
 label {
     display: block;
-    margin-top: 10px;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #004d40;
+    /* Darker teal color */
 }
 
+/* Input field styling */
 input {
     width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #b2dfdb;
+    /* Light teal border */
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #004d40;
+    /* Darker teal color */
 }
 
+/* Button styling */
 button {
     margin-top: 20px;
-    padding: 10px;
-    background-color: #007BFF;
+    padding: 12px;
+    background-color: #00796b;
+    /* Dark teal background */
     color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
 }
 
+/* Button hover effect */
 button:hover {
-    background-color: #0056b3;
+    background-color: #004d40;
+    /* Darker teal on hover */
 }
 
+/* Result div styling */
 #result {
-    margin-top: 20px;
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #e0f7fa;
+    /* Light teal background */
+    border: 1px solid #b2dfdb;
+    /* Light teal border */
+    border-radius: 5px;
+    color: #004d40;
+    /* Darker teal color */
+    font-size: 16px;
 }
